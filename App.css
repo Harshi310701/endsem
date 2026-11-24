@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #a9cadb;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #6a57e3;
+  font-size: 40px;
+}
+
+.task-box {
+  background: rgb(202, 225, 227);
+  color: #b781ea;
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px #ae8484;
+}
+
+input {
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid #1c1111;
+  border-radius: 6px;
+}
+
+button {
+  padding: 12px 18px;
+  margin: 5px;
+  background: #405a96;
+  color: rgb(241, 152, 152);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #263e75;
+}
+
+.task-item {
+  background: #c9cfe6;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(238, 152, 72);
+}
+.reminder-box {
+  background: #fff3cd;
+  color: #856404;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #eadaab;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px #ccc;
+}
+
+.reminder-box button {
+  background: #94896d;
+}
+
+.reminder-box button:hover {
+  background: #e6d9bb;
+}
